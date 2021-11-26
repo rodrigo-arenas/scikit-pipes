@@ -29,9 +29,22 @@ scikit-pipes requires:
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
+   :caption: Jupyter notebooks examples:
+
+   notebooks/simple_pipeline.ipynb
+
+.. toctree::
+   :maxdepth: 2
    :caption: Release Notes
 
    release_notes
+
+.. toctree::
+   :maxdepth: 2
+   :caption: API Reference:
+
+   api/skpipeline
 
 Indices and tables
 ==================

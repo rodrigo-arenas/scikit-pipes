@@ -21,10 +21,49 @@
 .. _Contributors: https://github.com/rodrigo-arenas/scikit-pipes/graphs/contributors
 
 
+.. image:: https://github.com/rodrigo-arenas/scikit-pipes/blob/master/docs/images/logo64.png?raw=true
+
 Scikit-Pipes
 ############
 
 Scikit-Learn useful pre-defined Pipelines Hub
+
+Usage:
+######
+
+Install scikit-pipes
+
+It's advised to install sklearn-genetic using a virtual env, inside the env use::
+
+   pip install scikit-pipes
+
+Example: Simple Preprocessing
+#############################
+
+.. code-block:: python
+
+    import pandas as pd
+    import numpy as np
+    from skpipes.pipeline import SkPipeline
+
+    data = [{"x1": 1, "x2": 400, "x3": np.nan},
+            {"x1": 4.8, "x2": 250, "x3": 50},
+            {"x1": 3, "x2": 140, "x3": 43},
+            {"x1": 1.4, "x2": 357, "x3": 75},
+            {"x1": 2.4, "x2": np.nan, "x3": 42},
+            {"x1": 4, "x2": 287, "x3": 21}]
+
+    df = pd.DataFrame(data)
+
+    pipe = SkPipeline(name='imputer_median-minmax',
+                      data_type="numerical")
+    pipe.steps
+    str(pipe)
+
+    pipe.fit(df)
+    pipe.transform(df)
+    pipe.fit_transform(df)
+
 
 Changelog
 #########
