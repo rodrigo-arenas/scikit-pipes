@@ -33,7 +33,7 @@ Usage:
 
 Install scikit-pipes
 
-It's advised to install sklearn-genetic using a virtual env, inside the env use::
+It's advised to install scikit-pipes using a virtual env, inside the env use::
 
    pip install scikit-pipes
 
@@ -69,7 +69,7 @@ Changelog
 #########
 
 See the `changelog <https://scikit-pipes.readthedocs.io/en/latest/release_notes.html>`__
-for notes on the changes of Sklearn-genetic-opt
+for notes on the changes of Sklearn-pipes
 
 Important links
 ###############
