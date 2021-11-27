@@ -21,7 +21,7 @@
 .. _Contributors: https://github.com/rodrigo-arenas/scikit-pipes/graphs/contributors
 
 
-.. image:: https://github.com/rodrigo-arenas/scikit-pipes/blob/master/docs/images/logo64.png?raw=true
+.. image:: https://github.com/rodrigo-arenas/scikit-pipes/blob/master/docs/images/logo16.png?raw=true
 
 Scikit-Pipes
 ############
