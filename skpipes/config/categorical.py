@@ -1,4 +1,4 @@
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.preprocessing import OrdinalEncoder, OneHotEncoder
 from sklearn.impute import SimpleImputer
 
 categorical_config_dict = {
@@ -9,11 +9,11 @@ categorical_config_dict = {
         ],
         "description": "Most frequent imputer with One-Hot encoding",
     },
-    "imputer_mf-label": {
+    "imputer_mf-ordinal": {
         "steps": [
             ("imputer", SimpleImputer(strategy="most_frequent")),
-            ("encoding", LabelEncoder()),
+            ("encoding", OrdinalEncoder()),
         ],
-        "description": "Most frequent imputer with Label encoding",
-    }
+        "description": "Most frequent imputer with ordinal encoding",
+    },
 }
