@@ -14,7 +14,7 @@ HERE = pathlib.Path(__file__).parent
 
 README = (HERE / "README.rst").read_text()
 setup(
-    name="scikit-config",
+    name="scikit-pipes",
     version=__version__,
     description="Scikit-Learn useful pre-defined Pipelines Hub",
     long_description=README,
