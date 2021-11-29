@@ -27,7 +27,8 @@
 Scikit-Pipes
 ############
 
-Scikit-Learn useful pre-defined Pipelines Hub
+Scikit-Learn useful pre-defined Pipelines Hub.
+
 This package is still at an experimental stage.
 
 Usage:
