@@ -95,6 +95,16 @@ Install the development dependencies::
 
 Check the latest in-development documentation: https://scikit-pipes.readthedocs.io/en/latest/
 
+Contributing
+############
+
+Contributions are always welcome!
+If you want to contribute, make sure to read the `Contribution guide <https://github.com/rodrigo-arenas/scikit-pipes/blob/master/CONTRIBUTING.md>`_.
+
+Thanks to the people who are helping with this project!
+
+|Contributors|_
+
 Testing
 #######
 
