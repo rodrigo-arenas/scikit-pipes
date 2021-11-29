@@ -58,7 +58,7 @@ Example: Simple Preprocessing
 
     df = pd.DataFrame(data)
 
-    pipe = SkPipeline(name='imputer_median-minmax',
+    pipe = SkPipeline(name='median_imputer-minmax',
                       data_type="numerical")
     pipe.steps
     str(pipe)
