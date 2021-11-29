@@ -4,12 +4,11 @@ from .config import get_config
 
 class SkPipeline(Pipeline):
     """
-    Main object of scikit-config to select the desired Pipeline
+    Main object of scikit-pipes to select the desired Pipeline
 
-    Sequentially apply a list of transforms and a final estimator.
+    Sequentially apply a list of transforms.
     Intermediate steps of the pipeline must be 'transforms', that is, they
     must implement `fit` and `transform` methods.
-    The final estimator only needs to implement `fit`.
     The transformers in the pipeline can be cached using ``memory`` argument.
     The purpose of the pipeline is to assemble several steps that can be
     cross-validated together while setting different parameters. For this, it

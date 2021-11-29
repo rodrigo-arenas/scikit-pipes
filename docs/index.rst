@@ -6,7 +6,8 @@ Scikit-Learn useful pre-defined Pipelines Hub
 
 #################################################################
 
-This is repository of several Pipelines to use with Scikit-learn models in a direct way
+This is repository of several Pipelines to use with Scikit-learn models in a direct way.
+This package is still at an experimental stage.
 
 Installation:
 #############
@@ -45,6 +46,7 @@ scikit-pipes requires:
    :caption: API Reference:
 
    api/skpipeline
+   api/pipelines
 
 Indices and tables
 ==================

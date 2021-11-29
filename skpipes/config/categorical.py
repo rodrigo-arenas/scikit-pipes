@@ -1,15 +1,15 @@
 from sklearn.preprocessing import OrdinalEncoder, OneHotEncoder
-from sklearn.impute import SimpleImputer
+from sklearn.impute import SimpleImputer, KNNImputer
 
 categorical_config_dict = {
-    "imputer_mf-one_hot": {
+    "mf_imputer-one_hot": {
         "steps": [
             ("imputer", SimpleImputer(strategy="most_frequent")),
             ("encoding", OneHotEncoder(sparse=False)),
         ],
         "description": "Most frequent imputer with One-Hot encoding",
     },
-    "imputer_mf-ordinal": {
+    "mf_imputer-ordinal": {
         "steps": [
             ("imputer", SimpleImputer(strategy="most_frequent")),
             ("encoding", OrdinalEncoder()),
