@@ -27,7 +27,7 @@
 Scikit-Pipes
 ############
 
-Scikit-Learn useful pre-defined Pipelines Hub.
+Scikit-Learn practical pre-defined Pipelines Hub.
 
 This package is still at an experimental stage.
 
@@ -36,7 +36,7 @@ Usage:
 
 Install scikit-pipes
 
-It's advised to install scikit-pipes using a virtual env, inside the env use::
+We advise to install scikit-pipes using a virtual env, inside the env use::
 
    pip install scikit-pipes
 
